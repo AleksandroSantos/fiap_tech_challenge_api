@@ -77,3 +77,13 @@ Os dados de vitivinicultura são armazenados em arquivos CSV na pasta data/. Cer
 python app/app.py
 ```
 A aplicação estará disponível em http://127.0.0.1:8000.
+
+### Testes
+
+Executar Testes
+
+Os testes estão localizados na pasta tests/.
+```bash
+pytest
+```
+
