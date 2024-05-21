@@ -57,3 +57,23 @@ pip install -r requirements.txt
 ```bash
 git clone https://github.com/AleksandroSantos/tech_challenge_api.git
 cd tech_challenge_api
+```
+
+### Ingestão de Dados
+Os dados são ingeridos usando scripts de scraping. Os scripts estão localizados na pasta scrapers/.
+
+Exemplo de Uso do Scraper
+
+```bash
+python scrapers/main.py 
+```
+
+### Configurar os Arquivos CSV
+Os dados de vitivinicultura são armazenados em arquivos CSV na pasta data/. Certifique-se de ter os arquivos producao.csv, processamento.csv, comercializacao.csv, importacao.csv e exportacao.csv nessa pasta.
+
+
+### Executar a Aplicação Localmente
+```bash
+python app/app.py
+```
+A aplicação estará disponível em http://127.0.0.1:8000.
